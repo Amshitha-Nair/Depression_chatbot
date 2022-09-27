@@ -1,0 +1,128 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello"
+        
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?",
+        "Hi, I am Sam, how can I help you?"
+      ]
+    },
+    {
+      "tag": "day",
+      "patterns": [
+        "i had a terrible day","terrible day",
+        "i had a tiring day","tiring day",
+        "i had an awful day","awful day",
+        "i had a horrible day","horrible day",
+        "i had a hectic day","hectic day",
+        "i had a exhausting day","exhausting day",
+        "i had a bad day","bad day","feeling sad","not feeling well"
+      ],
+      "responses": [
+        "Hey, don't be sad. It happens to everyone",
+        "Sorry to hear that. How are you coping up?",
+        "Alas! Do you want to listen to some music?",
+        "Ooh! I can suggest you some songs to lighten your mood."
+      ]
+    },
+    {
+      "tag": "songs",
+      "patterns": [
+        "yes",
+        "sure",
+        "what songs",
+        "try","recommend me a song"
+      ],
+      "responses": [
+        "Here is one: Ok not to be ok",
+        "How about this one: Friends theme song"
+        
+      ]
+    },
+    {
+      "tag": "feel",
+      "patterns": [
+        "I am not able to open up to anyone",
+        "I am ashamed to share my feelings",
+        "I am tired of life",
+        "I feel empty", "purposeless","feeling lonely"
+      ],
+      "responses": [
+        "Consider me as your friend and tell me. I won't judge.",
+        "I understand you are really struggling, and I am here to listen.",
+        "Why don't you try to talk to someone who you are really close to? Like your best friend or sibling or parents.",
+        "Are you having suicidal thoughts or feeling suicidal?"
+
+      ]
+    },
+    {
+      "tag": "suicide",
+      "patterns": [
+        "suicidal",
+        "yes",
+        "end life","cannot live anymore","don't want to be alive","kill myself"
+      ],
+      "responses": [
+        "Please talk to someone who you are close to about how you are feeling. Trust me they will help you.",
+        "Contact this no.9152987821. They can help you better",
+        "That's not a way to solve a problem. Remove that thought off your mind immediately. Your life is worth more than that. Contact this no.9152987821.",
+        "That's not good. Contact this no.9152987821."
+
+      ]
+    },
+    {
+      "tag": "hate",
+      "patterns": [
+        "Everyone hates me",
+        "Nobody likes me",
+        "rude",
+        "mock", "tease"
+      ],
+      "responses": [
+        "Are you sure about this? Or it might just be in your mind. If this feeling persists cut off those people from your life.",
+        "You are a beautiful human and do not deserve anyones hatred. Just distance them from your life",
+        "Try to be around people who appreciates you and makes you happy"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?",
+        "joke"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison.",
+        "What do you call a bear with no teeth? A gummy bear",
+        "Why do the cows have bells? Because their horns don't work",
+        "Why can't a bicycle stand on its own? It's two tired"
+      ]
+    }
+  ]
+}
